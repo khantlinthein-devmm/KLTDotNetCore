@@ -1,0 +1,7 @@
+ConsoleApp
+
+C# Library and Frameworks
+
+(1) AdoDotNet
+(2) Dapper
+(3) EFCore
