@@ -12,7 +12,9 @@ AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 // adoDotNetExample.Read();
 // adoDotNetExample.Create("test title", "test author", "test content");
 // adoDotNetExample.Update(1, "North to the west", "min min", "This is a kid story.");
-adoDotNetExample.Delete(11);
+// adoDotNetExample.Delete(11);
+// adoDotNetExample.Edit(11);
+adoDotNetExample.Edit(1);
 
 Console.ReadKey();
 
