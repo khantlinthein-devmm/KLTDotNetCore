@@ -11,3 +11,5 @@ Console App
 Ado.Net [ Finished => Create, Read, Update, Delete, Edit ]
 Dapoper 
 EF Core
+(1) Code First
+(2) Database First [Completed]
