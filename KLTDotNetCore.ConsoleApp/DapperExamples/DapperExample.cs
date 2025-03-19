@@ -1,4 +1,6 @@
 ﻿using Dapper;
+using KLTDotNetCore.ConsoleApp.DTOs;
+using KLTDotNetCore.ConsoleApp.Services;
 using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
@@ -7,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KLTDotNetCore.ConsoleApp
+namespace KLTDotNetCore.ConsoleApp.DapperExamples
 {
     internal class DapperExample
     {

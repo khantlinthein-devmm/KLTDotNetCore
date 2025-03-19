@@ -1,11 +1,13 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using KLTDotNetCore.ConsoleApp.DTOs;
+using KLTDotNetCore.ConsoleApp.Services;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KLTDotNetCore.ConsoleApp
+namespace KLTDotNetCore.ConsoleApp.EFCoreExamples
 {
     internal class AppDbContext:DbContext
     {

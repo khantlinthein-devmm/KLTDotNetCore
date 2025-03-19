@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KLTDotNetCore.ConsoleApp;
+namespace KLTDotNetCore.ConsoleApp.DTOs;
 
 [Table("Tbl_Blog")]
     public class BlogDto

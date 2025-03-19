@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.Data.SqlClient;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace KLTDotNetCore.ConsoleApp
+namespace KLTDotNetCore.ConsoleApp.AdoDotNetExamples
 {
 	
     internal class AdoDotNetExample

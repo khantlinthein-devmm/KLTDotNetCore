@@ -1,4 +1,4 @@
-﻿using KLTDotNetCore.ConsoleApp;
+﻿using KLTDotNetCore.ConsoleApp.EFCoreExamples;
 using Microsoft.Data.SqlClient;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data;

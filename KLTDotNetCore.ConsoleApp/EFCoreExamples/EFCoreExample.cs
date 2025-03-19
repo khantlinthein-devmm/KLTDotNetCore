@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Storage;
+﻿using KLTDotNetCore.ConsoleApp.DTOs;
+using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
@@ -6,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KLTDotNetCore.ConsoleApp
+namespace KLTDotNetCore.ConsoleApp.EFCoreExamples
 {
     internal class EFCoreExample
     {
