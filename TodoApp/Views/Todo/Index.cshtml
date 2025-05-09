@@ -1,0 +1,40 @@
+﻿
+@model List<TodoItem>
+@{
+    ViewData["Title"] = "Todo List";
+}
+
+
+<h1>Todo List (MVC)</h1>
+
+<form app-controller="Todo" asp-action="Add" method="post">
+    <div class="form-group">
+        <label for="title">Add New Todo:</label>
+        <input type="text" id="title" name="title" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary"> Add</button>
+</form>
+
+<hr/>
+
+@if ( Model != null && Model.Any())
+{
+    <ul>
+        @foreach( var item in Model)
+        {
+            <li>
+                <input type="checkbox" @(item.isCompleted ? "checked" : "") onchange="this.form.submit()" />
+                @item.Title
+                <form asp-controller="Todo" asp-action="Complete" asp-route-id="@item.Id" method="post" style="display:inline;">
+                    <input type="hidden" />
+                </form>
+                <form asp-controller="Todo" asp-action="Delete" asp-route-id="@item.Id" method="post" style="display:inline;">
+                    <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                </form>
+            </li>
+        }
+    </ul>
+} else
+{
+    <p>No todos yet!</p>
+}
